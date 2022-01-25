@@ -1,0 +1,43 @@
+body{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: white;
+}
+.btn {
+background-color: rgb(33, 33, 219);
+color: white;
+display: flex;
+font-size: 60px;
+border-radius: 20px;
+}
+.output{
+background-color: rgb(230, 230, 240);
+color: rgb(202, 18, 18);
+display: flex;
+font-size: 100px;
+display: flex;
+justify-content: center;
+align-items: center
+}
+.head-active{
+background-image: url(./image4.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-color: white;
+animation: move 2s linear;
+} 
+.tail-active{
+background-image: url(./image5.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-color: white;
+animation: color 2s linear;
+}
+@keyframes move{
+to{background-color: deepskyblue;}
+}
+@keyframes color{
+to{background-color: rgb(114, 187, 211);}
+}
